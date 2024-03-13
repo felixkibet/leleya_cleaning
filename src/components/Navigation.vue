@@ -1,10 +1,10 @@
 <template>
-  <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top" style="background-color: #2C365E;">
+  <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top" style="background-color: #2c365e">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Leleya Cleaning</a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
