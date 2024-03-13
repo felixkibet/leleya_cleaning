@@ -4,7 +4,6 @@
   <Gallery />
   <Services />
   <Contact />
-  <router-view />
   <Footer />
 </template>
 
