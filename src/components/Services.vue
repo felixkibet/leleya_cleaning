@@ -19,29 +19,32 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref } from "vue";
 
 const services = ref([
   {
     id: 1,
-    icon: 'home', // Replace with appropriate icon name
-    title: 'Deep Cleaning',
-    description: 'Thorough cleaning from top to bottom, including kitchens, bathrooms, and living areas.',
-    link: '#'
+    icon: "home", // Replace with appropriate icon name
+    title: "Deep Cleaning",
+    description:
+      "Thorough cleaning from top to bottom, including kitchens, bathrooms, and living areas.",
+    link: "#",
   },
   {
     id: 2,
-    icon: 'dolly', // Replace with appropriate icon name
-    title: 'Move-In/Move-Out Cleaning',
-    description: 'Professional cleaning to ensure a spotless start or finish for your move.',
-    link: '#'
+    icon: "dolly", // Replace with appropriate icon name
+    title: "Move-In/Move-Out Cleaning",
+    description:
+      "Professional cleaning to ensure a spotless start or finish for your move.",
+    link: "#",
   },
   {
     id: 3,
-    icon: 'calendar-alt', // Replace with appropriate icon name
-    title: 'Recurring Cleaning',
-    description: 'Maintain a clean and healthy environment with regular cleaning visits.',
-    link: '#'
-  }
-])
+    icon: "calendar-alt", // Replace with appropriate icon name
+    title: "Recurring Cleaning",
+    description:
+      "Maintain a clean and healthy environment with regular cleaning visits.",
+    link: "#",
+  },
+]);
 </script>

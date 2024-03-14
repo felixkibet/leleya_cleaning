@@ -8,7 +8,7 @@ import Navigation from "./components/Navigation.vue";
 import Services from "./components/Services.vue";
 
 const routes = [
-  { path: "/", Component: Navigation },
+  { path: "/", component: Navigation },
   { path: "/about", component: About },
   { path: "/contact", component: Contact },
   { path: "/services", component: Services },
