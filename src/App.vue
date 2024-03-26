@@ -1,9 +1,10 @@
 <template>
   <Navigation />
-  <About />
-  <Gallery />
-  <Services />
-  <Contact />
+  <RouterView></RouterView>
+  <!-- <About /> -->
+  <!-- <Gallery /> -->
+  <!-- <Services /> -->
+  <!-- <Contact /> -->
   <Footer />
 </template>
 

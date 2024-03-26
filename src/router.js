@@ -2,17 +2,15 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import About from "./components/About.vue";
 import Contact from "./components/Contact.vue";
-import Footer from "./components/Footer.vue";
 import Gallery from "./components/Gallery.vue";
-import Navigation from "./components/Navigation.vue";
 import Services from "./components/Services.vue";
 
 const routes = [
-  { path: "/", component: Navigation },
-  { path: "/about", component: About },
-  { path: "/contact", component: Contact },
-  { path: "/services", component: Services },
-  { path: "/gallery", component: Gallery },
+  { path: "/", component: About, name: "home" },
+  { path: "/about", component: About, name: "about" },
+  { path: "/contact", component: Contact, name: "contact" },
+  { path: "/services", component: Services, name: "services" },
+  { path: "/gallery", component: Gallery, name: "gallery" },
 ];
 
 const router = createRouter({
